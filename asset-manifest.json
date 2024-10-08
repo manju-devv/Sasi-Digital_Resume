@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sasi-Digital_Resume/static/css/main.ed01ae33.css",
+    "main.css": "/Sasi-Digital_Resume/static/css/main.feb3b798.css",
     "main.js": "/Sasi-Digital_Resume/static/js/main.92643a6b.js",
     "static/media/python6.png": "/Sasi-Digital_Resume/static/media/python6.9a7f3ee82dda9b41f9aa.png",
     "static/media/sasi.jpeg": "/Sasi-Digital_Resume/static/media/sasi.31aae792b01471c8c132.jpeg",
@@ -14,11 +14,11 @@
     "static/media/python3.jpg": "/Sasi-Digital_Resume/static/media/python3.d98bc8fddb0158014332.jpg",
     "static/media/html.jpg": "/Sasi-Digital_Resume/static/media/html.e752581a2660b99c2564.jpg",
     "index.html": "/Sasi-Digital_Resume/index.html",
-    "main.ed01ae33.css.map": "/Sasi-Digital_Resume/static/css/main.ed01ae33.css.map",
+    "main.feb3b798.css.map": "/Sasi-Digital_Resume/static/css/main.feb3b798.css.map",
     "main.92643a6b.js.map": "/Sasi-Digital_Resume/static/js/main.92643a6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed01ae33.css",
+    "static/css/main.feb3b798.css",
     "static/js/main.92643a6b.js"
   ]
 }
