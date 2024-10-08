@@ -405,6 +405,11 @@
   }
 }
 
+@media (max-width:500px){
+  .line1{
+    height: 182px;
+  }
+}
 @media(max-width:400px){
   .resume-details h2{
     font-size: 20px;

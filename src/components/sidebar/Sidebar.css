@@ -336,6 +336,19 @@ ul li,p{
     margin:10px 10px 50px 10px;
   }
   .sidebar-details{
-    margin-left: 55px;
+    margin-left: 15px;
   }
+}
+@media(max-width:500px){
+  .sidebar-details{
+    margin-left: 13px;
+  }
+  .sidebar-photo img{
+    width: 100px;
+    height: 110px;
+  }
+  .sidebar-name h2{
+    font-size: 18px;
+  }
+
 }

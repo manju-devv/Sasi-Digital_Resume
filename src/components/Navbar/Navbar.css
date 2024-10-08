@@ -82,7 +82,7 @@
     position: fixed; 
     bottom: -130px;
     width: 107%;
-    filter: blur(0.5px);
+    filter: blur(0.7px);
   }
 
   .navbar .navbar-elements .navbar-lists {
@@ -92,7 +92,7 @@
     margin-bottom: 10px;
     margin-left:150px;
     border-radius: 10px 5px 0px 0px;
-    background-color:rgb(48, 46, 46,0.9);
+    background-color:rgb(48, 46, 46,0.97);
   }
 }
 
@@ -103,7 +103,13 @@
 }
 
 @media(max-width:550px){
-  .navbar-lists li {
-    font-size: 14px;
+  .navbar .navbar-elements .navbar-lists {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:500px){
+  .navbar {
+    width: 112%;
   }
 }
