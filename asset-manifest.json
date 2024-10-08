@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Sasi-Digital_Resume/static/css/main.387c973a.css",
+    "main.js": "/Sasi-Digital_Resume/static/js/main.92643a6b.js",
+    "static/media/python6.png": "/Sasi-Digital_Resume/static/media/python6.9a7f3ee82dda9b41f9aa.png",
+    "static/media/sasi.jpeg": "/Sasi-Digital_Resume/static/media/sasi.31aae792b01471c8c132.jpeg",
+    "static/media/python1.png": "/Sasi-Digital_Resume/static/media/python1.f5bfc9a6477074fde944.png",
+    "static/media/web2jpg.jpg": "/Sasi-Digital_Resume/static/media/web2jpg.8b4fbbc797352aa32876.jpg",
+    "static/media/web1.jpg": "/Sasi-Digital_Resume/static/media/web1.89cba028f3f44c1e8b0e.jpg",
+    "static/media/web4.jpeg": "/Sasi-Digital_Resume/static/media/web4.c3e809b83b4fcea57142.jpeg",
+    "static/media/kakashi.jpg": "/Sasi-Digital_Resume/static/media/kakashi.a09138096a58e6386078.jpg",
+    "static/media/web3.jpg": "/Sasi-Digital_Resume/static/media/web3.729bb0ff156b0e263a61.jpg",
+    "static/media/python5.jpg": "/Sasi-Digital_Resume/static/media/python5.f184a0ed4c484af4150e.jpg",
+    "static/media/python3.jpg": "/Sasi-Digital_Resume/static/media/python3.d98bc8fddb0158014332.jpg",
+    "static/media/html.jpg": "/Sasi-Digital_Resume/static/media/html.e752581a2660b99c2564.jpg",
+    "index.html": "/Sasi-Digital_Resume/index.html",
+    "main.387c973a.css.map": "/Sasi-Digital_Resume/static/css/main.387c973a.css.map",
+    "main.92643a6b.js.map": "/Sasi-Digital_Resume/static/js/main.92643a6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.387c973a.css",
+    "static/js/main.92643a6b.js"
+  ]
+}
