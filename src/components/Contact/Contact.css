@@ -186,6 +186,10 @@ textarea#typing3{
     margin:-40px 10px 70px 10px;
     float:none;
   }
+  .form{
+    margin: 0px 10px;
+  }
+  
   .form,.user-details{
     display: flex;
     flex-direction: column;
