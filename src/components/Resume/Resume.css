@@ -396,9 +396,7 @@
 
 
 @media(max-width:580px){
-  .resume-heading > h1.active{
-    background-color: pink;
-  }
+
   .line1{
     left: 2.2%;
     height: 172px;
