@@ -342,6 +342,7 @@ ul li,p{
 @media(max-width:500px){
   .sidebar-details{
     margin-left: 13px;
+
   }
   .sidebar-photo img{
     width: 100px;
