@@ -1,0 +1,200 @@
+
+.contact-details{
+  height: 100%;
+  width: 61%;
+  background-color: #1E201E;
+  border-radius: 10px;
+  margin: 30px 100px 50px 0px;
+  float: right;
+  position:relative;
+  padding-bottom: 15px;
+  top: 0;
+  right: 0;
+  animation: contact 0.6s ease-in-out;
+}
+
+@keyframes contact {
+  from{
+    opacity: 0%;
+  } to{
+    opacity: 100%;
+  }
+}
+
+.contact-details .contact-heading h1{
+  display: inline-block;
+  margin: 40px;
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+}
+.contact-details .contact-heading h1.alive{
+  
+  border-radius: 5px;
+  box-shadow: 3px 3px  5px rgb(196, 196, 195);
+  filter: blur(0.3px);
+  padding: 2px 10px;
+  transition:1s ease;
+}
+.contact-details .contact-heading h1:hover{
+  text-shadow: 5px 5px 5px grey;
+  transform: translateX(-3px) translateY(-2px);
+}
+
+.frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frame iframe{
+  width: 90%;
+  height: 350px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: none;
+}
+.frame a{
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 7%;
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+.frame a:hover{
+  color: grey;
+}
+.footer-details h2{
+  margin:20px 0px 15px 40px;
+  font-size: 26px;
+}
+
+
+.form{
+  margin: 0px 40px;
+}
+
+
+.form .user-details{
+  display: flex;
+  gap: 20px;
+}
+
+
+.form .user-details input{
+  height: 45px;
+  width: 100%;
+  font-weight:600;
+  border-radius: 5px;
+  padding: 0px 15px;
+  outline: none;
+  border: 1px solid grey;
+  color: grey;
+  background-color: #1E201E;
+}
+
+
+
+.form input:focus{
+  border-color: tomato;
+}
+
+.form input:blur{
+  border-color:pink;
+}
+input#typing{
+  border-color: green;
+}
+
+input#typing1{
+  border-color: green;
+}
+
+.form .user-message{
+  display: flex;
+}
+.form .user-message textarea{
+  height: 120px;
+  width: 100%;
+  font-weight:600;
+  padding: 20px 0px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  border: 1px solid grey;
+  color: grey;
+  background-color: #1E201E;
+  margin-top: 30px;
+  resize: none;
+}
+
+.user-message textarea:focus{
+  border-color: tomato;
+}
+
+textarea#typing3{
+  border-color: green;
+}
+
+.form button{
+  display: flex;
+  float: right;
+  align-items: center;
+  margin-top: 20px;
+  color: grey;
+  background-color: #1E201E;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 19px;
+  border: 1px solid grey;
+  transition: 0.3s ease;
+}
+
+.form .send-icon{
+  margin-right: 10px;
+  color: skyblue;
+  font-size: 22px;
+}
+
+.form button:hover{
+ background: linear-gradient(45deg,#748DA6, #776B5D);
+ color: black; 
+}
+
+@media(max-width:1400px){
+  .contact-details{
+    width: calc(100% - 200px);
+    margin:-180px 100px 50px 100px;
+  }
+}
+
+@media (max-width:900px){
+  .contact-details{
+    margin-top: -40px;
+    margin-bottom: 80px;
+  }
+}
+
+@media(max-width:680px){
+  .contact-details{
+    position: relative;
+    width:95%;
+    margin:-40px 10px 70px 10px;
+    float:none;
+  }
+  .form,.user-details{
+    display: flex;
+    flex-direction: column;
+  }
+  .form button{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}

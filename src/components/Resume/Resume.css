@@ -1,0 +1,419 @@
+
+.resume-details{
+    height: 100%;
+    width: 61%;
+    background-color: #1E201E;
+    border-radius: 10px;
+    margin: 30px 100px 50px 0px;
+    float: right;
+    position:relative;
+    padding-bottom: 20px;
+    top: 0;
+    right: 0;
+    animation: oppai 0.6s ease-in-out;
+  }
+  
+  @keyframes oppai {
+    from{
+      opacity: 0%;
+    } to{
+      opacity: 100%;
+    }
+  }
+
+  .resume-heading > h1.active{
+    margin-top: 70px;
+    box-shadow: 1.3px 1.3px 0.9px 1.4px rgb(63, 61, 61);
+    filter: blur(0.3px);
+    border-radius: 5px;
+    padding:  2px 10px;
+    display: inline-block;
+    transition: 0.5s ease-in;
+    margin-left: 40px;
+  }
+
+
+  .internship-details{
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .internship{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 30px;
+    position: relative;
+  }
+
+  .line1,.line2{
+    width: 5px;
+    height: 160px;
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 4px 4px 18px black;
+    position: absolute;
+    top: 85%;
+    left: 1%;
+  }
+  .line2{
+    height: 230px;
+  }
+
+  .internship .circle1{
+    position: absolute;
+    font-size: 24px;
+    color: yellow;
+    box-shadow: 4px 4px 8px black;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    padding: 1.5px;
+  }
+
+  .internship .h2{
+    margin-left: 35px;
+  }
+
+  .internship1 .first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+  }
+
+  .internship1{
+    margin-top: 25px;
+  }
+
+  .internship1  .first .circle{
+    border: 3px solid gainsboro;
+    padding: 1px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px black;
+    position: absolute;
+    margin-top: 12px;
+    font-size: 22px;
+    color: yellow;
+    z-index: 1;
+    margin-left: 1px;
+  }
+  .internship1 .first p{
+    margin-left: 40px;
+    font-weight: 600;
+    color: palegoldenrod;
+  }
+  .internship1 .para1{
+    margin-left: 78px;
+    max-width: 85%;
+  }
+
+
+  .internship2{
+    margin-top: 30px;
+  }
+
+  .internship2 .second{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+  }
+
+  .internship2 .second .circle{
+    border: 3px solid gainsboro;
+    padding: 1px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px black;
+    position: absolute;
+    margin-top: 12px;
+    font-size: 22px;
+    color: yellow;
+    z-index: 1;
+    margin-left: 1px;
+  }
+
+  .internship2 .second p{
+    margin-left: 40px;
+    font-weight: 600;
+    color: palegoldenrod;
+  }
+  
+.internship2 .para2{
+  margin-left: 78px;
+  max-width: 85%;
+}
+
+
+.education-details{
+  margin-top: 30px;
+  position: relative;
+}
+
+.edu-heading{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 30px;
+  position: relative;
+}
+.edu-heading .book-icon{
+  position: absolute;
+  font-size: 24px;
+  color: yellow;
+  box-shadow: 4px 4px 8px black;
+  border-radius: 5px;
+  padding: 1.5px;
+  border: 2px solid gainsboro;
+}
+
+.edu-heading h2{
+  margin-left: 35px;
+}
+
+.mca{
+  position: relative;
+}
+
+.mca .mca-details{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.mca .mca-details .mca-icon{
+  position: absolute;
+  margin-top: 12px;
+  font-size: 22px;
+  color: yellow;
+  border-radius: 50%;
+  border:3px solid gainsboro;
+  padding: 1px;
+  box-shadow: 4px 4px 8px black;
+}
+
+
+/* line styling */
+.education-details .edu-heading .line{
+  width: 5px;
+  height: 230px;
+  background-color: grey;
+  border-radius: 2px;
+  box-shadow: 4px 4px 18px black;
+  position: absolute;
+  top: 85%;
+  left: 1%; 
+}
+
+
+.mca .mca-details p{
+  margin-left: 40px;
+  color: palegoldenrod;
+  font-weight: 500;
+}
+
+.mca .mca-duration{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 78px;
+  line-height: 10px;
+}
+
+.Bsc{
+  position: relative;
+  margin-top: 14px;
+}
+
+
+.Bsc .bsc-details{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.Bsc .bsc-details .bsc-icon{
+  position: absolute;
+  margin-top: 12px;
+  font-size: 22px;
+  color: yellow;
+  border-radius: 50%;
+  border:3px solid gainsboro;
+  padding: 1px;
+  box-shadow: 4px 4px 8px black;
+}
+
+.Bsc .bsc-details .p{
+  margin-left: 40px;
+  font-weight: 500;
+  color: palegoldenrod;
+}
+
+.Bsc .bsc-duration{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 78px;
+  line-height: 10px;
+}
+
+.inter{
+  position: relative;
+  margin-top: 14px;
+}
+
+.inter .inter-details{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 10px;
+}
+
+.inter .inter-details .inter-icon{
+  position: absolute;
+  margin-top: 12px;
+  font-size: 22px;
+  color: yellow;
+  border: 3px solid gainsboro;
+  border-radius: 50%;
+  padding: 1px;
+  box-shadow: 4px 4px 8px black;
+}
+
+.inter .inter-details p{
+  margin-left: 40px;
+  color: palegoldenrod;
+  font-weight: 500;
+}
+
+.inter .inter-duration{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 78px;
+  line-height: 10px;
+}
+
+@media(max-width:1400px){
+  .resume-details{
+    width: calc(100% - 200px);
+    margin:-180px 100px 50px 100px;
+  }
+}
+
+
+@media (max-width:1020px){
+  .line1{
+    position: absolute;
+    top: 85%;
+    left: 1.5%;
+    height: 180px;
+  }
+  .line2{
+    position: absolute;
+    top: 85%;
+    left: 1.5%;
+  }
+}
+
+@media (max-width:900px){
+  .resume-details{
+    /* margin: 30px 100px 50px 0px; */
+    margin-top: -40px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width:770px){
+  .line1{
+    left: 2%;
+    height: 185px;
+  }
+  .line2{
+    left: 1.9%;
+  }
+}
+
+@media (max-width:760px){
+  .resume-heading > h1.active{
+    margin-top: 40px;
+    font-size: 26px;
+    padding: 5px 20px;
+    margin-left: 30px;
+  }
+  .line1{
+    left: 2%;
+    height: 185px;
+  }
+  .line2{
+    left: 1.9%;
+  }
+}
+
+@media(max-width:680px){
+  .resume-details{
+    position: relative;
+    width:95%;
+    margin:-40px 10px 70px 10px;
+    float:none;
+  }
+  .para1,.para2,.mca-duration,.bsc-duration,.inter-duration{
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .resume-heading > h1.active{
+    font-size: 20px;
+  }
+  .line1{
+    left: 1.7%;
+    height: 170px;
+  }
+  .line2{
+    left: 1.5%;
+  }
+}
+
+@media(max-width:710px){
+  .line1{
+    left: 2.2%;
+
+  }
+  .line2{
+    left: 2%;
+  }
+}
+
+@media(max-width:600px){
+  .line1{
+    left: 2.2%;
+    height: 180px;
+  }
+  .line2{
+    left: 2%;
+  }
+}
+
+
+@media(max-width:580px){
+  .line1{
+    left: 2.2%;
+    height: 175px;
+  }
+  .line2{
+    left: 2%;
+  }
+}
+
+@media(max-width:400px){
+  .resume-details h2{
+    font-size: 20px;
+  }
+  .line1{
+    left: 2.7%;
+    height: 180px;
+  }
+  .line2{
+    left: 2.4%;
+  }
+}

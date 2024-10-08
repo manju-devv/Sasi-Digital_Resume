@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans";
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #3C3D37;
+  color: white;
+}
