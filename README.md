@@ -1,4 +1,4 @@
-Take a demo about the project: https://manju-devv.github.io/Sasi-Digital_Resume/
+Look at the demo about the project: https://manju-devv.github.io/Sasi-Digital_Resume/
 
 # Getting Started with Create React App
 
